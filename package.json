@@ -1,0 +1,39 @@
+{
+	"name": "grunt-unrequire",
+	"description": "Grunt task for converting r.js build files to javascript files without require",
+	"version": "0.1.0",
+	"author": {
+		"name": "Anton Ignatov",
+		"web": "https://github.com/a-ignatov-parc"
+	},
+	"url": "https://github.com/a-ignatov-parc/grunt-unrequire",
+	"bugs": "https://github.com/a-ignatov-parc/grunt-unrequire/issues",
+	"main": "./tasks/unrequire.js",
+	"keywords": [
+		"requirejs",
+		"client",
+		"optimization"
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/a-ignatov-parc/grunt-unrequire/blob/master/LICENSE"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/a-ignatov-parc/grunt-unrequire.git"
+	},
+	"scripts": {
+		"test": "grunt travis --verbose",
+		"build": "grunt compile"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "0.4.x",
+		"burrito": "0.2.x",
+		"grunt-cli": "0.1.x"
+	},
+	"srcPath": "src/",
+	"buildPath": "build/"
+}
